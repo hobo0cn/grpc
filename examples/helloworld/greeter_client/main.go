@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	pb "github.com/Hyperledger-TWGC/grpc/examples/helloworld/helloworld"
+	"github.com/hobo0cn/grpc"
+	pb "github.com/hobo0cn/grpc/examples/helloworld/helloworld"
 )
 
 const (

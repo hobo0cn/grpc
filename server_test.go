@@ -26,8 +26,8 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
+	"github.com/hobo0cn/grpc/internal/leakcheck"
+	"github.com/hobo0cn/grpc/internal/transport"
 )
 
 type emptyServiceServer interface{}

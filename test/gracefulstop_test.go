@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
+	"github.com/hobo0cn/grpc"
+	"github.com/hobo0cn/grpc/internal/leakcheck"
 
-	testpb "github.com/Hyperledger-TWGC/grpc/test/grpc_testing"
+	testpb "github.com/hobo0cn/grpc/test/grpc_testing"
 )
 
 type delayListener struct {

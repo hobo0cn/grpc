@@ -20,8 +20,8 @@
 package authinfo
 
 import (
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	altspb "github.com/Hyperledger-TWGC/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/hobo0cn/grpc/credentials"
+	altspb "github.com/hobo0cn/grpc/credentials/alts/internal/proto/grpc_gcp"
 )
 
 var _ credentials.AuthInfo = (*altsAuthInfo)(nil)

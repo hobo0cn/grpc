@@ -21,7 +21,7 @@ package service
 import (
 	"testing"
 
-	grpc "github.com/Hyperledger-TWGC/grpc"
+	grpc "github.com/hobo0cn/grpc"
 )
 
 const (

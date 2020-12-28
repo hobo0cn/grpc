@@ -23,16 +23,16 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/Hyperledger-TWGC/grpc"
-	_ "github.com/Hyperledger-TWGC/grpc/balancer/grpclb"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/credentials/alts"
-	"github.com/Hyperledger-TWGC/grpc/credentials/oauth"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/interop"
-	testpb "github.com/Hyperledger-TWGC/grpc/interop/grpc_testing"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
-	"github.com/Hyperledger-TWGC/grpc/testdata"
+	"github.com/hobo0cn/grpc"
+	_ "github.com/hobo0cn/grpc/balancer/grpclb"
+	"github.com/hobo0cn/grpc/credentials"
+	"github.com/hobo0cn/grpc/credentials/alts"
+	"github.com/hobo0cn/grpc/credentials/oauth"
+	"github.com/hobo0cn/grpc/grpclog"
+	"github.com/hobo0cn/grpc/interop"
+	testpb "github.com/hobo0cn/grpc/interop/grpc_testing"
+	"github.com/hobo0cn/grpc/resolver"
+	"github.com/hobo0cn/grpc/testdata"
 )
 
 var (

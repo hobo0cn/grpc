@@ -30,12 +30,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/internal/envconfig"
-	"github.com/Hyperledger-TWGC/grpc/metadata"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	testpb "github.com/Hyperledger-TWGC/grpc/test/grpc_testing"
+	"github.com/hobo0cn/grpc"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/internal/envconfig"
+	"github.com/hobo0cn/grpc/metadata"
+	"github.com/hobo0cn/grpc/status"
+	testpb "github.com/hobo0cn/grpc/test/grpc_testing"
 )
 
 func enableRetry() func() {

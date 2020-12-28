@@ -27,16 +27,16 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"github.com/Hyperledger-TWGC/grpc"
-	_ "github.com/Hyperledger-TWGC/grpc/balancer/grpclb"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
-	"github.com/Hyperledger-TWGC/grpc/keepalive"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
-	"github.com/Hyperledger-TWGC/grpc/resolver/manual"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	testpb "github.com/Hyperledger-TWGC/grpc/test/grpc_testing"
+	"github.com/hobo0cn/grpc"
+	_ "github.com/hobo0cn/grpc/balancer/grpclb"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/internal/channelz"
+	"github.com/hobo0cn/grpc/internal/leakcheck"
+	"github.com/hobo0cn/grpc/keepalive"
+	"github.com/hobo0cn/grpc/resolver"
+	"github.com/hobo0cn/grpc/resolver/manual"
+	"github.com/hobo0cn/grpc/status"
+	testpb "github.com/hobo0cn/grpc/test/grpc_testing"
 )
 
 func (te *test) startServers(ts testpb.TestServiceServer, num int) {

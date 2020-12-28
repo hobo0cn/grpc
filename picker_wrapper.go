@@ -23,12 +23,12 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/balancer"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/hobo0cn/grpc/balancer"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/grpclog"
+	"github.com/hobo0cn/grpc/internal/channelz"
+	"github.com/hobo0cn/grpc/internal/transport"
+	"github.com/hobo0cn/grpc/status"
 )
 
 // pickerWrapper is a wrapper of balancer.Picker. It blocks on certain pick

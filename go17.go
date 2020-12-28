@@ -28,9 +28,9 @@ import (
 	"net/http"
 
 	netctx "golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/internal/transport"
+	"github.com/hobo0cn/grpc/status"
 )
 
 // dialContext connects to the address on the named network.

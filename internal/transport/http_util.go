@@ -35,8 +35,8 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/status"
 )
 
 const (

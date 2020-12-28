@@ -26,16 +26,16 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/balancer/roundrobin"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	_ "github.com/Hyperledger-TWGC/grpc/grpclog/glogger"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
-	"github.com/Hyperledger-TWGC/grpc/peer"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
-	"github.com/Hyperledger-TWGC/grpc/resolver/manual"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	testpb "github.com/Hyperledger-TWGC/grpc/test/grpc_testing"
+	"github.com/hobo0cn/grpc"
+	"github.com/hobo0cn/grpc/balancer/roundrobin"
+	"github.com/hobo0cn/grpc/codes"
+	_ "github.com/hobo0cn/grpc/grpclog/glogger"
+	"github.com/hobo0cn/grpc/internal/leakcheck"
+	"github.com/hobo0cn/grpc/peer"
+	"github.com/hobo0cn/grpc/resolver"
+	"github.com/hobo0cn/grpc/resolver/manual"
+	"github.com/hobo0cn/grpc/status"
+	testpb "github.com/hobo0cn/grpc/test/grpc_testing"
 )
 
 type testServer struct {

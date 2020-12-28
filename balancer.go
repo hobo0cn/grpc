@@ -23,11 +23,11 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/naming"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/credentials"
+	"github.com/hobo0cn/grpc/grpclog"
+	"github.com/hobo0cn/grpc/naming"
+	"github.com/hobo0cn/grpc/status"
 )
 
 // Address represents a server the client connects to.

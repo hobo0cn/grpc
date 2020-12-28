@@ -31,12 +31,12 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	testpb "github.com/Hyperledger-TWGC/grpc/interop/grpc_testing"
-	"github.com/Hyperledger-TWGC/grpc/metadata"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/hobo0cn/grpc"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/grpclog"
+	testpb "github.com/hobo0cn/grpc/interop/grpc_testing"
+	"github.com/hobo0cn/grpc/metadata"
+	"github.com/hobo0cn/grpc/status"
 )
 
 var (

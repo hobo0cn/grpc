@@ -24,9 +24,9 @@ import (
 	"io"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	metricspb "github.com/Hyperledger-TWGC/grpc/stress/grpc_testing"
+	"github.com/hobo0cn/grpc"
+	"github.com/hobo0cn/grpc/grpclog"
+	metricspb "github.com/hobo0cn/grpc/stress/grpc_testing"
 )
 
 var (

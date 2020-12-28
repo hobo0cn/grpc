@@ -25,10 +25,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/balancer"
-	"github.com/Hyperledger-TWGC/grpc/balancer/base"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
+	"github.com/hobo0cn/grpc/balancer"
+	"github.com/hobo0cn/grpc/balancer/base"
+	"github.com/hobo0cn/grpc/grpclog"
+	"github.com/hobo0cn/grpc/resolver"
 )
 
 // Name is the name of round_robin balancer.

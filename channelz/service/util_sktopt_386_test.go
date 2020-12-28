@@ -22,7 +22,7 @@ package service
 
 import (
 	"golang.org/x/sys/unix"
-	channelzpb "github.com/Hyperledger-TWGC/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/hobo0cn/grpc/channelz/grpc_channelz_v1"
 )
 
 func protoToTime(protoTime *channelzpb.SocketOptionTimeout) *unix.Timeval {

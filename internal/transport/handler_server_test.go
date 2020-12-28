@@ -34,9 +34,9 @@ import (
 	dpb "github.com/golang/protobuf/ptypes/duration"
 	"golang.org/x/net/context"
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/metadata"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/hobo0cn/grpc/codes"
+	"github.com/hobo0cn/grpc/metadata"
+	"github.com/hobo0cn/grpc/status"
 )
 
 func TestHandlerTransport_NewServerHandlerTransport(t *testing.T) {

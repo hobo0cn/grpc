@@ -21,8 +21,8 @@ package grpc
 import (
 	"testing"
 
-	"github.com/Hyperledger-TWGC/grpc/encoding"
-	"github.com/Hyperledger-TWGC/grpc/encoding/proto"
+	"github.com/hobo0cn/grpc/encoding"
+	"github.com/hobo0cn/grpc/encoding/proto"
 )
 
 func TestGetCodecForProtoIsNotNil(t *testing.T) {

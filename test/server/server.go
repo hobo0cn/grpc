@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/test/hello"
+	"github.com/hobo0cn/grpc"
+	"github.com/hobo0cn/grpc/credentials"
+	"github.com/hobo0cn/grpc/test/hello"
 	"net"
 )
 

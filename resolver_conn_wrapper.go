@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
+	"github.com/hobo0cn/grpc/grpclog"
+	"github.com/hobo0cn/grpc/resolver"
 )
 
 // ccResolverWrapper is a wrapper on top of cc for resolvers.

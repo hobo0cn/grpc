@@ -28,10 +28,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"golang.org/x/net/context"
-	channelzpb "github.com/Hyperledger-TWGC/grpc/channelz/grpc_channelz_v1"
-	"github.com/Hyperledger-TWGC/grpc/connectivity"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/internal/channelz"
+	channelzpb "github.com/hobo0cn/grpc/channelz/grpc_channelz_v1"
+	"github.com/hobo0cn/grpc/connectivity"
+	"github.com/hobo0cn/grpc/credentials"
+	"github.com/hobo0cn/grpc/internal/channelz"
 )
 
 func init() {

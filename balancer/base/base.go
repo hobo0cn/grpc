@@ -31,8 +31,8 @@
 package base
 
 import (
-	"github.com/Hyperledger-TWGC/grpc/balancer"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
+	"github.com/hobo0cn/grpc/balancer"
+	"github.com/hobo0cn/grpc/resolver"
 )
 
 // PickerBuilder creates balancer.Picker.
